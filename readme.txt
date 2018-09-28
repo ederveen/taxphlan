@@ -11,7 +11,7 @@
 #    this WORKDIR will be a connection between your (local) machine and the Docker image in order to exchange files if required
 #    the image will be online on your machine for at least 30 days, but can be stopped or rebooted at any time
 # 6. finally, to go inside the initiated Docker image, 
-#    run: 'docker exec -e COLUMNS="`tput cols`" -e LINES="`tput lines`" -it < CONTAINER ID > /bin/bash'
+#    run: 'docker exec -e COLUMNS="tput cols" -e LINES="tput lines" -it < CONTAINER ID > /bin/bash'
 # 7. when you wish to exit from the Docker image simply type 'exit'
 
 
