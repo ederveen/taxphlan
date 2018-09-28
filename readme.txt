@@ -9,6 +9,7 @@
 # 4. run the following command: 'sh start-TaxPhlAn.sh' (make sure all scripts pulled from GitHub are located in the directory)
 # 5. the TaxPhlAn Docker image will now automatically initiate, and create the directory 'Docker/TaxPhlAn-WORKDIR/'
 #    this WORKDIR will be a connection between your (local) machine and the Docker image in order to exchange files if required
+#    the image will be online on your machine for at least 30 days, but can be stopped or rebooted at any time
 # 6. finally, to go inside the initiated Docker image, 
 #    run: 'docker exec -e COLUMNS="`tput cols`" -e LINES="`tput lines`" -it < CONTAINER ID > /bin/bash'
 # 7. when you wish to exit from the Docker image simply type 'exit'
