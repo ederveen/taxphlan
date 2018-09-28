@@ -6,7 +6,7 @@
 # 1. pull the most recent Docker image from the repository, according to instructions in https://docs.docker.com/docker-hub/
 # 2. navigate on your machine to the folder where you wish to create and run TaxPhlAn, e.g. /home/user/TaxPhlAn/
 # 3. pull the most recent Docker initiation scripts from this GitHub repository at https://github.com/ederveen/taxphlan.git
-# 4. run the following command: 'sh start-TaxPhlAn.sh' (make sure all pulled scripts are located in the directory)
+# 4. run the following command: 'sh start-TaxPhlAn.sh' (make sure all scripts pulled from GitHub are located in the directory)
 # 5. the TaxPhlAn Docker image will now automatically initiate, and create the directory 'Docker/TaxPhlAn-WORKDIR/'
 #    this WORKDIR will be a connection between your (local) machine and the Docker image in order to exchange files if required
 # 6. finally, to go inside the initiated Docker image, 
