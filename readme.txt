@@ -17,3 +17,4 @@
 
 # For further instructions, please see inside the TaxPhlAn Docker image,
 # directory /TaxPhlAn for pipeline SLST Design (Module A) and pipeline SLST Oligotyping (Module B). In there, for each pipeline, you can find its wrapper script, dependent scripts directory, and instructions file, and we have provided a test data set including examples runs for both pipeline modules A and B.
+# Please note, the TaxPhlAn pipeline for SLST Design (Module A) uses the NCBI program 'tbl2asn' which expires every year! Please be sure to check if this tool is up-to-date before running your analyses (last update: 18 November 2019).
