@@ -2,6 +2,8 @@
 
 # The TaxPhlAn Docker image can be found at https://hub.docker.com/r/ederveen/taxphlan/
 
+# Publication by Ederveen T.H.A. et al., Scientific Reports (2019): https://doi.org/10.1038/s41598-019-56065-y
+
 # For easy and quick install of this Docker image :
 # 1. pull the most recent Docker image from the repository, according to instructions in https://docs.docker.com/docker-hub/
 # 2. navigate on your machine to the folder where you wish to create and run TaxPhlAn, e.g. /home/user/TaxPhlAn/
